@@ -18,7 +18,7 @@ while x < 1:
     userSentence = input(' '.join(wordsList[:10]) + "\n")
     end = datetime.datetime.now()
     elapsed = end - start
-    if userSentence.capitalize() == sentence.capitalize():
+    if userSentence.lower() == sentence.lower():
         # amount of words in sentence times 60 sec, divided by user time
         wordCount = (10 * 60) / elapsed.seconds
         print("Your score is", int(wordCount), "words per minute")
