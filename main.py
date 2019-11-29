@@ -7,7 +7,8 @@ wordsList = ["keyboard","cat","house","street","nearby","whatever","microphone",
              "books","flower","calculator","going","purple","blue","magnificent",
              "around","world","python","chocolate","hungry","wallpaper","singing",
              "difficult","triangle","science","escape","directory","ladder",
-             "confusing","number","chair","speaker","plane","motorcycle"]
+             "confusing","number","chair","speaker","plane","motorcycle","backpack",
+             "script","bed","technology"]
 while x < 1:
     startMessage = input("Press Enter to begin test...\n")
     print("Rewrite below non-sense sentence and confirm it with Enter:")
